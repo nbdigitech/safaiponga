@@ -10,6 +10,7 @@ const PhotoHome = () => {
         </h1>
         <Gallery />
       </div>
+
       {/* <div className=" py-10 border-b border-[#006090]">
         <h1 className="text-3xl pl-10 font-semibold text-[#006090]">
           October 2021
