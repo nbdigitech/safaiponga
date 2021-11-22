@@ -15,9 +15,11 @@ const Essentials = () => {
           in the world.
         </h2>
         <div className="sm:flex sm:justify-start pt-6 justify-center">
-          <button className="py-2 px-6 border-2 border-[#597E86] sm:text-xl text-base  text-[#597E86]">
-            Download the Swachhta Docket
-          </button>
+          <a href="https://drive.google.com/drive/folders/1LL0I4KlQL9PCOtnXddwwgIUR7no405fN">
+            <button className="py-2 px-6 border-2 border-[#597E86] sm:text-xl text-base  text-[#597E86]">
+              Download the Swachhta Docket
+            </button>
+          </a>
         </div>
       </div>
       <div className="flex flex-1  sm:pt-10 pb-4 py-6 justify-center items-center sm:ml-10">

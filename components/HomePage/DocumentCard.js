@@ -1,6 +1,6 @@
 import React from "react";
 import { AiFillStar } from "react-icons/ai";
-const DocumentCard = ({ head }) => {
+const DocumentCard = ({ head, link }) => {
   return (
     <div>
       <div className="w-[250px] h-[280px] hover:bg-[#d7ecf0] bg-[#F0F5F6] mr-5  ">
@@ -15,10 +15,12 @@ const DocumentCard = ({ head }) => {
         </div>
         <div className="py-8 px-4">
           <h1 className="text-xl font-semibold pb-4">{head}</h1>
-          <button className="border-dashed border-2 border-[#006090] px-4 py-2 mt-2 flex">
-            <img src="/assets/download.png" alt="" className="mr-4" />
-            Download PDF
-          </button>
+          <a href={link}>
+            <button className="border-dashed border-2 border-[#006090] px-4 py-2 mt-2 flex">
+              <img src="/assets/download.png" alt="" className="mr-4" />
+              Download PDF
+            </button>
+          </a>
           <button className="border-dashed border-2 border-[#006090] px-4 py-2 mt-2 flex">
             <img src="/assets/read.png" alt="" className="mr-4" />
             Read Online

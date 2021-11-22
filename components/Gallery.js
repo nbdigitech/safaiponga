@@ -14,7 +14,7 @@ const Gallery = () => {
         <GalleryCard src="7" />
         <GalleryCard src="8" />
       </div>
-      <div className=" ml-6 text-white flex justify-center">
+      {/* <div className=" ml-6 text-white flex justify-center">
         <button
           className="inline-flex items-center border-2  border-[#597E86] font-semibold  lg:py-2 py-[5px] px-6  pr-6 hover:pr-10
          focus:outline-none text-base text-[#597E86] hover:text-white hover:bg-[#597E86] mt-4 md:mt-0"
@@ -24,7 +24,7 @@ const Gallery = () => {
             <MdKeyboardArrowRight />
           </span>
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };
